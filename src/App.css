@@ -1,0 +1,92 @@
+.App{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.tImg{
+  padding: 25px 35px 25px 0px;
+  border-right: 1px solid rgb(172, 102, 102);
+}
+
+.sumCon{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+  margin-top: 80px;
+  border: 1px solid rgb(172, 102, 102);
+}
+
+
+
+.pName{
+  font-size: 30px;
+  font-weight: 00;
+  margin-left: 10px;
+  font-family: 'Trebuchet MS';
+}
+
+.heading{
+  font-size: 28px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(7, 34, 59);
+  margin-top: 0;
+  height: 50px;
+  width: 100%;
+  color: bisque;
+  align-items: center;
+}
+
+.btn{
+  border-radius: 20px;
+  background-color: orange;
+  color: black;
+  border: none;
+  height: 40px;
+  width: 200px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-right: 16px;
+}
+
+.subList{
+  margin-top: 16px;
+}
+
+.subSum{
+  font-size: 24px;
+}
+
+.btn:hover{
+  background-color: white;
+  color: orange;
+  transition: background-color 0.3s ease;
+  box-shadow: 10px 8px 19px -7px rgba(0,0,0,0.43);
+-webkit-box-shadow: 12px 10px 19px -7px rgba(0,0,0,0.43);
+-moz-box-shadow: 12px 10px 19px -7px rgba(0,0,0,0.43);
+}
+
+
+.btn1{
+  border-radius: 20px;
+  background-color: orange;
+  color: black;
+  border: none;
+  margin-top: 16px;
+  height: 40px;
+  width: 200px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.btn1:hover{
+  background-color: white;
+  color: orange;
+  transition: background-color 0.3s ease;
+  box-shadow: 10px 8px 19px -7px rgba(0,0,0,0.43);
+-webkit-box-shadow: 12px 10px 19px -7px rgba(0,0,0,0.43);
+-moz-box-shadow: 12px 10px 19px -7px rgba(0,0,0,0.43);
+}
